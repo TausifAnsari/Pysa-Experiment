@@ -19,11 +19,8 @@ The Experiment contains 4 Tasks.
       source tutorial/bin/activate
       ```
 
-3. If doing this tutorial with an accompanying lecture, wait for the
-   presentation to resume. If going through on your own, go to the first
-   exercise:
+3. After activating the virtual environment, go to the first task (Task - 1)
 
    ```
-   cd exercise1
-   cat README.md
+   cd Task-1
    ```
