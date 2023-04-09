@@ -1,0 +1,1098 @@
+2023-02-06 15:43:33,644 [PID 21093] INFO No binary specified, looking for `pyre.bin` in PATH
+2023-02-06 15:43:33,646 [PID 21093] INFO Could not determine the number of Pyre workers from configuration. Auto-set the value to 3.
+2023-02-06 15:43:33,646 [PID 21093] INFO No typeshed specified, looking for it...
+2023-02-06 15:43:33,647 [PID 21093] INFO Found: `/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed`
+2023-02-06 15:43:33,649 [PID 21093] INFO Writing arguments into /tmp/pyre_arguments_d8sxjpu0.json...
+2023-02-06 15:43:33,649 [PID 21093] DEBUG Arguments:
+{
+  "source_paths": {
+    "kind": "simple",
+    "paths": [
+      "/home/tausifansari/pyre-check/documentation/pysa_tutorial/FalsePositive"
+    ]
+  },
+  "search_paths": [
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/FalsePositive/../../../stubs",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stdlib",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/DateTimeRange",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/Deprecated",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/Flask-Cors",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/Flask-SQLAlchemy",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/JACK-Client",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/Markdown",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/Pillow",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/PyMySQL",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/PyYAML",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/Pygments",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/SQLAlchemy",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/Send2Trash",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/aiofiles",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/annoy",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/appdirs",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/atomicwrites",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/aws-xray-sdk",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/babel",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/backports.ssl_match_hostname",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/beautifulsoup4",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/bleach",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/boto",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/braintree",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/cachetools",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/caldav",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/certifi",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/chardet",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/chevron",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/click-spinner",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/colorama",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/commonmark",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/contextvars",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/croniter",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/cryptography",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/dateparser",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/decorator",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/dj-database-url",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/docopt",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/docutils",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/editdistance",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/emoji",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/entrypoints",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/first",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/flake8-2020",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/flake8-bugbear",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/flake8-builtins",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/flake8-docstrings",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/flake8-plugin-utils",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/flake8-rst-docstrings",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/flake8-simplify",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/flake8-typing-imports",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/fpdf2",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/freezegun",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/gdb",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/google-cloud-ndb",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/hdbcli",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/html5lib",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/httplib2",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/humanfriendly",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/invoke",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/jmespath",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/jsonschema",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/ldap3",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/mock",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/mypy-extensions",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/mysqlclient",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/oauthlib",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/openpyxl",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/opentracing",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/paramiko",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/parsimonious",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/passlib",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/passpy",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/pep8-naming",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/playsound",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/polib",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/prettytable",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/protobuf",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/psutil",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/psycopg2",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/pyOpenSSL",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/pyRFC3339",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/pyaudio",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/pycurl",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/pyfarmhash",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/pyflakes",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/pynput",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/pysftp",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/pytest-lazy-fixture",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/python-dateutil",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/python-gflags",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/python-jose",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/python-nmap",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/python-slugify",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/pytz",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/pyvmomi",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/redis",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/regex",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/requests",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/retry",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/selenium",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/setuptools",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/simplejson",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/singledispatch",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/six",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/slumber",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/stdlib-list",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/stripe",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/tabulate",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/termcolor",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/toml",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/toposort",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/tqdm",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/ttkthemes",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/typed-ast",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/tzlocal",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/ujson",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/urllib3",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/vobject",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/waitress",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/whatthepatch",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/xmltodict",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/xxhash",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/zxcvbn"
+  ],
+  "excludes": [
+    ".*/integration_test/.*"
+  ],
+  "checked_directory_allowlist": [
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/FalsePositive"
+  ],
+  "checked_directory_blocklist": [],
+  "extensions": [],
+  "log_path": "/home/tausifansari/pyre-check/documentation/pysa_tutorial/FalsePositive/.pyre",
+  "global_root": "/home/tausifansari/pyre-check/documentation/pysa_tutorial/FalsePositive",
+  "debug": false,
+  "python_version": {
+    "major": 3,
+    "minor": 10,
+    "micro": 6
+  },
+  "shared_memory": {},
+  "parallel": true,
+  "number_of_workers": 3,
+  "inline_decorators": false,
+  "no_verify": false,
+  "verify_dsl": false,
+  "strict": false,
+  "taint_model_paths": [
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/FalsePositive"
+  ],
+  "use_cache": false,
+  "check_invariants": false
+}
+2023-02-06 15:43:33,677 [PID 21093] INFO  Initializing shared memory [heap_size=8589934592, dep_table_pow=27, hash_table_pow=26]
+2023-02-06 15:43:33,679 [PID 21093] INFO  Verifying model syntax and configuration.
+2023-02-06 15:43:33,680 [PID 21093] INFO  Finding taint models in `/home/tausifansari/pyre-check/documentation/pysa_tutorial/FalsePositive`.
+2023-02-06 15:43:33,680 [PID 21093] PERFORMANCE  Verified model syntax and configuration: 0.001s
+2023-02-06 15:43:33,680 [PID 21093] INFO  Creating environment...
+2023-02-06 15:43:33,680 [PID 21093] INFO  Building module tracker...
+2023-02-06 15:43:33,777 [PID 21093] PERFORMANCE  Module tracker built: 0.096s
+2023-02-06 15:43:33,861 [PID 21093] PERFORMANCE  Full environment built: 0.181s
+2023-02-06 15:43:36,986 [PID 21093] INFO  Checking 48176 functions...
+2023-02-06 15:43:38,402 [PID 21093] INFO  Processed 984 of 48176 functions
+2023-02-06 15:43:38,495 [PID 21093] INFO  Processed 1968 of 48176 functions
+2023-02-06 15:43:38,961 [PID 21093] INFO  Processed 2952 of 48176 functions
+2023-02-06 15:43:39,747 [PID 21093] INFO  Processed 3936 of 48176 functions
+2023-02-06 15:43:40,548 [PID 21093] INFO  Processed 4920 of 48176 functions
+2023-02-06 15:43:41,051 [PID 21093] INFO  Processed 5904 of 48176 functions
+2023-02-06 15:43:41,176 [PID 21093] INFO  Processed 6888 of 48176 functions
+2023-02-06 15:43:41,624 [PID 21093] INFO  Processed 7872 of 48176 functions
+2023-02-06 15:43:42,067 [PID 21093] INFO  Processed 8856 of 48176 functions
+2023-02-06 15:43:42,276 [PID 21093] INFO  Processed 9840 of 48176 functions
+2023-02-06 15:43:42,750 [PID 21093] INFO  Processed 10824 of 48176 functions
+2023-02-06 15:43:43,288 [PID 21093] INFO  Processed 11808 of 48176 functions
+2023-02-06 15:43:43,411 [PID 21093] INFO  Processed 12792 of 48176 functions
+2023-02-06 15:43:43,673 [PID 21093] WARNING  Found untracked type `google.protobuf.descriptor_pb2.FieldDescriptorProto._Label.ValueType` when checking for attribute `DESCRIPTOR` of `google.protobuf.internal.enum_type_wrapper._EnumTypeWrapper`.
+2023-02-06 15:43:43,688 [PID 21093] WARNING  Found untracked type `google.protobuf.descriptor_pb2.FieldDescriptorProto._Type.ValueType` when checking for attribute `DESCRIPTOR` of `google.protobuf.internal.enum_type_wrapper._EnumTypeWrapper`.
+2023-02-06 15:43:43,714 [PID 21093] WARNING  Found untracked type `google.protobuf.descriptor_pb2.FieldOptions._CType.ValueType` when checking for attribute `DESCRIPTOR` of `google.protobuf.internal.enum_type_wrapper._EnumTypeWrapper`.
+2023-02-06 15:43:43,720 [PID 21093] WARNING  Found untracked type `google.protobuf.descriptor_pb2.FieldOptions._JSType.ValueType` when checking for attribute `DESCRIPTOR` of `google.protobuf.internal.enum_type_wrapper._EnumTypeWrapper`.
+2023-02-06 15:43:43,781 [PID 21093] WARNING  Found untracked type `google.protobuf.descriptor_pb2.FileOptions._OptimizeMode.ValueType` when checking for attribute `DESCRIPTOR` of `google.protobuf.internal.enum_type_wrapper._EnumTypeWrapper`.
+2023-02-06 15:43:43,829 [PID 21093] WARNING  Found untracked type `google.protobuf.descriptor_pb2.MethodOptions._IdempotencyLevel.ValueType` when checking for attribute `DESCRIPTOR` of `google.protobuf.internal.enum_type_wrapper._EnumTypeWrapper`.
+2023-02-06 15:43:44,161 [PID 21093] INFO  Processed 13776 of 48176 functions
+2023-02-06 15:43:44,439 [PID 21093] INFO  Processed 14760 of 48176 functions
+2023-02-06 15:43:44,507 [PID 21093] INFO  Processed 15744 of 48176 functions
+2023-02-06 15:43:45,299 [PID 21093] INFO  Processed 16728 of 48176 functions
+2023-02-06 15:43:45,567 [PID 21093] INFO  Processed 17712 of 48176 functions
+2023-02-06 15:43:45,634 [PID 21093] INFO  Processed 18696 of 48176 functions
+2023-02-06 15:43:46,357 [PID 21093] INFO  Processed 19680 of 48176 functions
+2023-02-06 15:43:46,641 [PID 21093] INFO  Processed 20664 of 48176 functions
+2023-02-06 15:43:46,729 [PID 21093] INFO  Processed 21648 of 48176 functions
+2023-02-06 15:43:47,712 [PID 21093] INFO  Processed 22632 of 48176 functions
+2023-02-06 15:43:47,799 [PID 21093] INFO  Processed 23616 of 48176 functions
+2023-02-06 15:43:47,921 [PID 21093] INFO  Processed 24600 of 48176 functions
+2023-02-06 15:43:48,637 [PID 21093] WARNING  Found untracked type `google.protobuf.compiler.plugin_pb2.CodeGeneratorResponse._Feature.ValueType` when checking for attribute `DESCRIPTOR` of `google.protobuf.internal.enum_type_wrapper._EnumTypeWrapper`.
+2023-02-06 15:43:48,748 [PID 21093] INFO  Processed 25584 of 48176 functions
+2023-02-06 15:43:49,002 [PID 21093] INFO  Processed 26568 of 48176 functions
+2023-02-06 15:43:49,107 [PID 21093] INFO  Processed 27552 of 48176 functions
+2023-02-06 15:43:50,181 [PID 21093] INFO  Processed 28536 of 48176 functions
+2023-02-06 15:43:50,277 [PID 21093] INFO  Processed 29520 of 48176 functions
+2023-02-06 15:43:50,385 [PID 21093] INFO  Processed 30504 of 48176 functions
+2023-02-06 15:43:51,409 [PID 21093] INFO  Processed 31488 of 48176 functions
+2023-02-06 15:43:51,859 [PID 21093] INFO  Processed 32472 of 48176 functions
+2023-02-06 15:43:52,522 [PID 21093] INFO  Processed 33456 of 48176 functions
+2023-02-06 15:43:52,828 [PID 21093] INFO  Processed 34440 of 48176 functions
+2023-02-06 15:43:53,282 [PID 21093] INFO  Processed 35424 of 48176 functions
+2023-02-06 15:43:54,403 [PID 21093] INFO  Processed 36408 of 48176 functions
+2023-02-06 15:43:54,462 [PID 21093] WARNING  Found untracked type `google.protobuf.type_pb2.Field._Cardinality.ValueType` when checking for attribute `DESCRIPTOR` of `google.protobuf.internal.enum_type_wrapper._EnumTypeWrapper`.
+2023-02-06 15:43:54,477 [PID 21093] WARNING  Found untracked type `google.protobuf.type_pb2.Field._Kind.ValueType` when checking for attribute `DESCRIPTOR` of `google.protobuf.internal.enum_type_wrapper._EnumTypeWrapper`.
+2023-02-06 15:43:54,487 [PID 21093] INFO  Processed 37392 of 48176 functions
+2023-02-06 15:43:54,505 [PID 21093] WARNING  Found untracked type `google.protobuf.type_pb2._Syntax.ValueType` when checking for attribute `DESCRIPTOR` of `google.protobuf.internal.enum_type_wrapper._EnumTypeWrapper`.
+2023-02-06 15:43:54,652 [PID 21093] INFO  Processed 38376 of 48176 functions
+2023-02-06 15:43:55,620 [PID 21093] INFO  Processed 39360 of 48176 functions
+2023-02-06 15:43:55,815 [PID 21093] INFO  Processed 40344 of 48176 functions
+2023-02-06 15:43:55,962 [PID 21093] INFO  Processed 41328 of 48176 functions
+2023-02-06 15:43:56,623 [PID 21093] WARNING  Found untracked type `google.protobuf.struct_pb2._NullValue.ValueType` when checking for attribute `DESCRIPTOR` of `google.protobuf.internal.enum_type_wrapper._EnumTypeWrapper`.
+2023-02-06 15:43:56,800 [PID 21093] INFO  Processed 42312 of 48176 functions
+2023-02-06 15:43:57,132 [PID 21093] INFO  Processed 43296 of 48176 functions
+2023-02-06 15:43:57,217 [PID 21093] INFO  Processed 44280 of 48176 functions
+2023-02-06 15:43:57,851 [PID 21093] INFO  Processed 45264 of 48176 functions
+2023-02-06 15:43:58,238 [PID 21093] INFO  Processed 46248 of 48176 functions
+2023-02-06 15:43:58,279 [PID 21093] INFO  Processed 47232 of 48176 functions
+2023-02-06 15:43:58,669 [PID 21093] INFO  Processed 48176 of 48176 functions
+2023-02-06 15:43:58,669 [PID 21093] PERFORMANCE  Check_TypeCheck: 21.683s
+2023-02-06 15:43:58,669 [PID 21093] MEMORY  Shared memory size post-typecheck (size: 81)
+2023-02-06 15:44:00,103 [PID 21093] PERFORMANCE  Computed class hierarchy graph: 1.434s
+2023-02-06 15:44:00,208 [PID 21093] PERFORMANCE  Computed class intervals: 0.105s
+2023-02-06 15:44:01,978 [PID 21093] PERFORMANCE  Fetched initial callables to analyze: 1.770s
+2023-02-06 15:44:02,040 [PID 21093] INFO  Parsing taint models...
+2023-02-06 15:44:02,040 [PID 21093] INFO  Finding taint models in `/home/tausifansari/pyre-check/documentation/pysa_tutorial/FalsePositive`.
+2023-02-06 15:44:02,096 [PID 21093] INFO  Computing inferred models...
+2023-02-06 15:44:02,716 [PID 21093] PERFORMANCE  Computed inferred models: 0.620s
+2023-02-06 15:44:02,716 [PID 21093] PERFORMANCE  Parsed taint models: 0.676s
+2023-02-06 15:44:02,716 [PID 21093] INFO  Computing overrides...
+2023-02-06 15:44:04,256 [PID 21093] WARNING  `google.protobuf.message.Message::ClearField` has 57 overrides, this might slow down the analysis considerably.
+2023-02-06 15:44:04,256 [PID 21093] WARNING  `google.protobuf.message.Message::__init__` has 58 overrides, this might slow down the analysis considerably.
+2023-02-06 15:44:04,257 [PID 21093] WARNING  `object::__eq__` has 185 overrides, this might slow down the analysis considerably.
+2023-02-06 15:44:04,257 [PID 21093] WARNING  `object::__hash__` has 75 overrides, this might slow down the analysis considerably.
+2023-02-06 15:44:04,257 [PID 21093] WARNING  `object::__init__` has 1328 overrides, this might slow down the analysis considerably.
+2023-02-06 15:44:04,257 [PID 21093] WARNING  `object::__ne__` has 88 overrides, this might slow down the analysis considerably.
+2023-02-06 15:44:04,257 [PID 21093] WARNING  `type::__call__` has 190 overrides, this might slow down the analysis considerably.
+2023-02-06 15:44:04,258 [PID 21093] WARNING  `type::__init__` has 1224 overrides, this might slow down the analysis considerably.
+2023-02-06 15:44:04,258 [PID 21093] WARNING  `type::__new__` has 165 overrides, this might slow down the analysis considerably.
+2023-02-06 15:44:04,258 [PID 21093] WARNING  `typing.Collection::__len__` has 51 overrides, this might slow down the analysis considerably.
+2023-02-06 15:44:04,258 [PID 21093] WARNING  `typing.GenericMeta::__getitem__` has 63 overrides, this might slow down the analysis considerably.
+2023-02-06 15:44:04,258 [PID 21093] WARNING  `typing.Iterable::__iter__` has 51 overrides, this might slow down the analysis considerably.
+2023-02-06 15:44:04,258 [PID 21093] WARNING  `typing.NamedTuple::__init__` has 112 overrides, this might slow down the analysis considerably.
+2023-02-06 15:44:04,279 [PID 21093] PERFORMANCE  Overrides computed: 1.563s
+2023-02-06 15:44:04,279 [PID 21093] INFO  Building call graph...
+2023-02-06 15:44:04,362 [PID 21093] PERFORMANCE  Call graph built: 0.083s
+2023-02-06 15:44:04,362 [PID 21093] INFO  Computing dependencies...
+2023-02-06 15:44:04,636 [PID 21093] PERFORMANCE  Computed dependencies: 0.274s
+2023-02-06 15:44:04,636 [PID 21093] INFO  Purging shared memory...
+2023-02-06 15:44:04,646 [PID 21093] PERFORMANCE  Purged shared memory: 0.010s
+2023-02-06 15:44:04,647 [PID 21093] INFO  Analysis fixpoint started for 11939 overrides and 27 functions...
+2023-02-06 15:44:05,343 [PID 21093] PERFORMANCE  Recorded initial models: 0.695s
+2023-02-06 15:44:05,344 [PID 21093] INFO  Iteration #0. 12 callables [...]
+2023-02-06 15:44:05,389 [PID 21093] INFO  Processed 5 of 12 callables
+2023-02-06 15:44:05,391 [PID 21093] INFO  Processed 7 of 12 callables
+2023-02-06 15:44:05,391 [PID 21093] INFO  Processed 12 of 12 callables
+2023-02-06 15:44:05,391 [PID 21093] INFO  Iteration #0, 12 callables, heap size 0.090GB took 0.05s
+2023-02-06 15:44:05,391 [PID 21093] INFO  Iteration #1. 12 callables [...]
+2023-02-06 15:44:05,432 [PID 21093] INFO  Processed 5 of 12 callables
+2023-02-06 15:44:05,435 [PID 21093] INFO  Processed 10 of 12 callables
+2023-02-06 15:44:05,444 [PID 21093] INFO  Processed 12 of 12 callables
+2023-02-06 15:44:05,445 [PID 21093] INFO  Iteration #1, 12 callables, heap size 0.090GB took 0.05s
+2023-02-06 15:44:05,482 [PID 21093] INFO  Found 0 issues
+2023-02-06 15:44:05,483 [PID 21093] INFO  Fixpoint iterations: 2
+2023-02-06 15:44:05,483 [PID 21093] PERFORMANCE  Analysis fixpoint complete: 0.836s
+2023-02-06 15:44:05,504 [PID 21093] PERFORMANCE  Analyze: 31.825s
+2023-02-06 15:44:53,728 [PID 21246] INFO No binary specified, looking for `pyre.bin` in PATH
+2023-02-06 15:44:53,729 [PID 21246] INFO Could not determine the number of Pyre workers from configuration. Auto-set the value to 3.
+2023-02-06 15:44:53,729 [PID 21246] INFO No typeshed specified, looking for it...
+2023-02-06 15:44:53,729 [PID 21246] INFO Found: `/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed`
+2023-02-06 15:44:53,731 [PID 21246] INFO Writing arguments into /tmp/pyre_arguments_5spi87ja.json...
+2023-02-06 15:44:53,732 [PID 21246] DEBUG Arguments:
+{
+  "source_paths": {
+    "kind": "simple",
+    "paths": [
+      "/home/tausifansari/pyre-check/documentation/pysa_tutorial/FalsePositive"
+    ]
+  },
+  "search_paths": [
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/FalsePositive/../../../stubs",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stdlib",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/DateTimeRange",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/Deprecated",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/Flask-Cors",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/Flask-SQLAlchemy",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/JACK-Client",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/Markdown",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/Pillow",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/PyMySQL",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/PyYAML",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/Pygments",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/SQLAlchemy",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/Send2Trash",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/aiofiles",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/annoy",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/appdirs",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/atomicwrites",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/aws-xray-sdk",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/babel",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/backports.ssl_match_hostname",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/beautifulsoup4",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/bleach",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/boto",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/braintree",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/cachetools",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/caldav",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/certifi",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/chardet",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/chevron",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/click-spinner",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/colorama",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/commonmark",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/contextvars",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/croniter",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/cryptography",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/dateparser",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/decorator",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/dj-database-url",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/docopt",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/docutils",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/editdistance",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/emoji",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/entrypoints",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/first",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/flake8-2020",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/flake8-bugbear",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/flake8-builtins",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/flake8-docstrings",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/flake8-plugin-utils",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/flake8-rst-docstrings",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/flake8-simplify",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/flake8-typing-imports",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/fpdf2",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/freezegun",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/gdb",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/google-cloud-ndb",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/hdbcli",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/html5lib",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/httplib2",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/humanfriendly",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/invoke",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/jmespath",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/jsonschema",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/ldap3",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/mock",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/mypy-extensions",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/mysqlclient",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/oauthlib",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/openpyxl",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/opentracing",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/paramiko",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/parsimonious",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/passlib",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/passpy",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/pep8-naming",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/playsound",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/polib",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/prettytable",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/protobuf",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/psutil",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/psycopg2",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/pyOpenSSL",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/pyRFC3339",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/pyaudio",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/pycurl",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/pyfarmhash",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/pyflakes",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/pynput",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/pysftp",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/pytest-lazy-fixture",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/python-dateutil",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/python-gflags",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/python-jose",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/python-nmap",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/python-slugify",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/pytz",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/pyvmomi",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/redis",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/regex",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/requests",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/retry",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/selenium",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/setuptools",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/simplejson",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/singledispatch",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/six",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/slumber",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/stdlib-list",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/stripe",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/tabulate",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/termcolor",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/toml",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/toposort",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/tqdm",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/ttkthemes",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/typed-ast",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/tzlocal",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/ujson",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/urllib3",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/vobject",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/waitress",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/whatthepatch",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/xmltodict",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/xxhash",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/zxcvbn"
+  ],
+  "excludes": [
+    ".*/integration_test/.*"
+  ],
+  "checked_directory_allowlist": [
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/FalsePositive"
+  ],
+  "checked_directory_blocklist": [],
+  "extensions": [],
+  "log_path": "/home/tausifansari/pyre-check/documentation/pysa_tutorial/FalsePositive/.pyre",
+  "global_root": "/home/tausifansari/pyre-check/documentation/pysa_tutorial/FalsePositive",
+  "debug": false,
+  "python_version": {
+    "major": 3,
+    "minor": 10,
+    "micro": 6
+  },
+  "shared_memory": {},
+  "parallel": true,
+  "number_of_workers": 3,
+  "inline_decorators": false,
+  "no_verify": false,
+  "verify_dsl": false,
+  "strict": false,
+  "taint_model_paths": [
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/FalsePositive"
+  ],
+  "use_cache": false,
+  "check_invariants": false
+}
+2023-02-06 15:44:53,760 [PID 21246] INFO  Initializing shared memory [heap_size=8589934592, dep_table_pow=27, hash_table_pow=26]
+2023-02-06 15:44:53,762 [PID 21246] INFO  Verifying model syntax and configuration.
+2023-02-06 15:44:53,762 [PID 21246] INFO  Finding taint models in `/home/tausifansari/pyre-check/documentation/pysa_tutorial/FalsePositive`.
+2023-02-06 15:44:53,763 [PID 21246] PERFORMANCE  Verified model syntax and configuration: 0.001s
+2023-02-06 15:44:53,763 [PID 21246] INFO  Creating environment...
+2023-02-06 15:44:53,763 [PID 21246] INFO  Building module tracker...
+2023-02-06 15:44:53,853 [PID 21246] PERFORMANCE  Module tracker built: 0.090s
+2023-02-06 15:44:53,937 [PID 21246] PERFORMANCE  Full environment built: 0.175s
+2023-02-06 15:44:57,506 [PID 21246] INFO  Checking 48176 functions...
+2023-02-06 15:44:58,552 [PID 21246] INFO  Processed 984 of 48176 functions
+2023-02-06 15:44:59,300 [PID 21246] INFO  Processed 1968 of 48176 functions
+2023-02-06 15:44:59,471 [PID 21246] INFO  Processed 2952 of 48176 functions
+2023-02-06 15:45:00,274 [PID 21246] INFO  Processed 3936 of 48176 functions
+2023-02-06 15:45:00,863 [PID 21246] INFO  Processed 4920 of 48176 functions
+2023-02-06 15:45:00,939 [PID 21246] INFO  Processed 5904 of 48176 functions
+2023-02-06 15:45:01,529 [PID 21246] INFO  Processed 6888 of 48176 functions
+2023-02-06 15:45:01,853 [PID 21246] INFO  Processed 7872 of 48176 functions
+2023-02-06 15:45:01,968 [PID 21246] INFO  Processed 8856 of 48176 functions
+2023-02-06 15:45:02,559 [PID 21246] INFO  Processed 9840 of 48176 functions
+2023-02-06 15:45:03,011 [PID 21246] WARNING  Found untracked type `google.protobuf.descriptor_pb2.FieldDescriptorProto._Label.ValueType` when checking for attribute `DESCRIPTOR` of `google.protobuf.internal.enum_type_wrapper._EnumTypeWrapper`.
+2023-02-06 15:45:03,024 [PID 21246] WARNING  Found untracked type `google.protobuf.descriptor_pb2.FieldDescriptorProto._Type.ValueType` when checking for attribute `DESCRIPTOR` of `google.protobuf.internal.enum_type_wrapper._EnumTypeWrapper`.
+2023-02-06 15:45:03,051 [PID 21246] WARNING  Found untracked type `google.protobuf.descriptor_pb2.FieldOptions._CType.ValueType` when checking for attribute `DESCRIPTOR` of `google.protobuf.internal.enum_type_wrapper._EnumTypeWrapper`.
+2023-02-06 15:45:03,055 [PID 21246] WARNING  Found untracked type `google.protobuf.descriptor_pb2.FieldOptions._JSType.ValueType` when checking for attribute `DESCRIPTOR` of `google.protobuf.internal.enum_type_wrapper._EnumTypeWrapper`.
+2023-02-06 15:45:03,109 [PID 21246] WARNING  Found untracked type `google.protobuf.descriptor_pb2.FileOptions._OptimizeMode.ValueType` when checking for attribute `DESCRIPTOR` of `google.protobuf.internal.enum_type_wrapper._EnumTypeWrapper`.
+2023-02-06 15:45:03,130 [PID 21246] INFO  Processed 10824 of 48176 functions
+2023-02-06 15:45:03,163 [PID 21246] WARNING  Found untracked type `google.protobuf.descriptor_pb2.MethodOptions._IdempotencyLevel.ValueType` when checking for attribute `DESCRIPTOR` of `google.protobuf.internal.enum_type_wrapper._EnumTypeWrapper`.
+2023-02-06 15:45:03,339 [PID 21246] INFO  Processed 11808 of 48176 functions
+2023-02-06 15:45:03,491 [PID 21246] INFO  Processed 12792 of 48176 functions
+2023-02-06 15:45:04,526 [PID 21246] INFO  Processed 13776 of 48176 functions
+2023-02-06 15:45:04,720 [PID 21246] INFO  Processed 14760 of 48176 functions
+2023-02-06 15:45:04,866 [PID 21246] INFO  Processed 15744 of 48176 functions
+2023-02-06 15:45:05,813 [PID 21246] INFO  Processed 16728 of 48176 functions
+2023-02-06 15:45:06,065 [PID 21246] INFO  Processed 17712 of 48176 functions
+2023-02-06 15:45:06,219 [PID 21246] INFO  Processed 18696 of 48176 functions
+2023-02-06 15:45:07,173 [PID 21246] INFO  Processed 19680 of 48176 functions
+2023-02-06 15:45:07,229 [PID 21246] INFO  Processed 20664 of 48176 functions
+2023-02-06 15:45:07,344 [PID 21246] INFO  Processed 21648 of 48176 functions
+2023-02-06 15:45:08,024 [PID 21246] WARNING  Found untracked type `google.protobuf.compiler.plugin_pb2.CodeGeneratorResponse._Feature.ValueType` when checking for attribute `DESCRIPTOR` of `google.protobuf.internal.enum_type_wrapper._EnumTypeWrapper`.
+2023-02-06 15:45:08,137 [PID 21246] INFO  Processed 22632 of 48176 functions
+2023-02-06 15:45:08,407 [PID 21246] INFO  Processed 23616 of 48176 functions
+2023-02-06 15:45:08,492 [PID 21246] INFO  Processed 24600 of 48176 functions
+2023-02-06 15:45:09,368 [PID 21246] INFO  Processed 25584 of 48176 functions
+2023-02-06 15:45:09,431 [PID 21246] INFO  Processed 26568 of 48176 functions
+2023-02-06 15:45:09,556 [PID 21246] INFO  Processed 27552 of 48176 functions
+2023-02-06 15:45:10,478 [PID 21246] INFO  Processed 28536 of 48176 functions
+2023-02-06 15:45:10,589 [PID 21246] INFO  Processed 29520 of 48176 functions
+2023-02-06 15:45:10,660 [PID 21246] INFO  Processed 30504 of 48176 functions
+2023-02-06 15:45:11,448 [PID 21246] INFO  Processed 31488 of 48176 functions
+2023-02-06 15:45:11,841 [PID 21246] INFO  Processed 32472 of 48176 functions
+2023-02-06 15:45:12,331 [PID 21246] INFO  Processed 33456 of 48176 functions
+2023-02-06 15:45:12,536 [PID 21246] INFO  Processed 34440 of 48176 functions
+2023-02-06 15:45:12,891 [PID 21246] INFO  Processed 35424 of 48176 functions
+2023-02-06 15:45:13,605 [PID 21246] INFO  Processed 36408 of 48176 functions
+2023-02-06 15:45:13,842 [PID 21246] WARNING  Found untracked type `google.protobuf.type_pb2.Field._Cardinality.ValueType` when checking for attribute `DESCRIPTOR` of `google.protobuf.internal.enum_type_wrapper._EnumTypeWrapper`.
+2023-02-06 15:45:13,853 [PID 21246] WARNING  Found untracked type `google.protobuf.type_pb2.Field._Kind.ValueType` when checking for attribute `DESCRIPTOR` of `google.protobuf.internal.enum_type_wrapper._EnumTypeWrapper`.
+2023-02-06 15:45:13,863 [PID 21246] INFO  Processed 37392 of 48176 functions
+2023-02-06 15:45:13,877 [PID 21246] WARNING  Found untracked type `google.protobuf.type_pb2._Syntax.ValueType` when checking for attribute `DESCRIPTOR` of `google.protobuf.internal.enum_type_wrapper._EnumTypeWrapper`.
+2023-02-06 15:45:14,008 [PID 21246] INFO  Processed 38376 of 48176 functions
+2023-02-06 15:45:14,706 [PID 21246] INFO  Processed 39360 of 48176 functions
+2023-02-06 15:45:15,057 [PID 21246] INFO  Processed 40344 of 48176 functions
+2023-02-06 15:45:15,175 [PID 21246] INFO  Processed 41328 of 48176 functions
+2023-02-06 15:45:15,883 [PID 21246] INFO  Processed 42312 of 48176 functions
+2023-02-06 15:45:16,253 [PID 21246] INFO  Processed 43296 of 48176 functions
+2023-02-06 15:45:16,368 [PID 21246] INFO  Processed 44280 of 48176 functions
+2023-02-06 15:45:16,842 [PID 21246] INFO  Processed 45264 of 48176 functions
+2023-02-06 15:45:17,048 [PID 21246] WARNING  Found untracked type `google.protobuf.struct_pb2._NullValue.ValueType` when checking for attribute `DESCRIPTOR` of `google.protobuf.internal.enum_type_wrapper._EnumTypeWrapper`.
+2023-02-06 15:45:17,382 [PID 21246] INFO  Processed 46248 of 48176 functions
+2023-02-06 15:45:17,559 [PID 21246] INFO  Processed 47232 of 48176 functions
+2023-02-06 15:45:17,870 [PID 21246] INFO  Processed 48176 of 48176 functions
+2023-02-06 15:45:17,870 [PID 21246] PERFORMANCE  Check_TypeCheck: 20.364s
+2023-02-06 15:45:17,871 [PID 21246] MEMORY  Shared memory size post-typecheck (size: 81)
+2023-02-06 15:45:19,436 [PID 21246] PERFORMANCE  Computed class hierarchy graph: 1.564s
+2023-02-06 15:45:19,542 [PID 21246] PERFORMANCE  Computed class intervals: 0.107s
+2023-02-06 15:45:21,239 [PID 21246] PERFORMANCE  Fetched initial callables to analyze: 1.697s
+2023-02-06 15:45:21,306 [PID 21246] INFO  Parsing taint models...
+2023-02-06 15:45:21,306 [PID 21246] INFO  Finding taint models in `/home/tausifansari/pyre-check/documentation/pysa_tutorial/FalsePositive`.
+2023-02-06 15:45:21,367 [PID 21246] INFO  Computing inferred models...
+2023-02-06 15:45:21,979 [PID 21246] PERFORMANCE  Computed inferred models: 0.612s
+2023-02-06 15:45:21,979 [PID 21246] PERFORMANCE  Parsed taint models: 0.673s
+2023-02-06 15:45:21,979 [PID 21246] INFO  Computing overrides...
+2023-02-06 15:45:23,480 [PID 21246] WARNING  `google.protobuf.message.Message::ClearField` has 57 overrides, this might slow down the analysis considerably.
+2023-02-06 15:45:23,480 [PID 21246] WARNING  `google.protobuf.message.Message::__init__` has 58 overrides, this might slow down the analysis considerably.
+2023-02-06 15:45:23,480 [PID 21246] WARNING  `object::__eq__` has 185 overrides, this might slow down the analysis considerably.
+2023-02-06 15:45:23,481 [PID 21246] WARNING  `object::__hash__` has 75 overrides, this might slow down the analysis considerably.
+2023-02-06 15:45:23,481 [PID 21246] WARNING  `object::__init__` has 1328 overrides, this might slow down the analysis considerably.
+2023-02-06 15:45:23,481 [PID 21246] WARNING  `object::__ne__` has 88 overrides, this might slow down the analysis considerably.
+2023-02-06 15:45:23,481 [PID 21246] WARNING  `type::__call__` has 190 overrides, this might slow down the analysis considerably.
+2023-02-06 15:45:23,481 [PID 21246] WARNING  `type::__init__` has 1224 overrides, this might slow down the analysis considerably.
+2023-02-06 15:45:23,482 [PID 21246] WARNING  `type::__new__` has 165 overrides, this might slow down the analysis considerably.
+2023-02-06 15:45:23,482 [PID 21246] WARNING  `typing.Collection::__len__` has 51 overrides, this might slow down the analysis considerably.
+2023-02-06 15:45:23,482 [PID 21246] WARNING  `typing.GenericMeta::__getitem__` has 63 overrides, this might slow down the analysis considerably.
+2023-02-06 15:45:23,482 [PID 21246] WARNING  `typing.Iterable::__iter__` has 51 overrides, this might slow down the analysis considerably.
+2023-02-06 15:45:23,482 [PID 21246] WARNING  `typing.NamedTuple::__init__` has 112 overrides, this might slow down the analysis considerably.
+2023-02-06 15:45:23,505 [PID 21246] PERFORMANCE  Overrides computed: 1.525s
+2023-02-06 15:45:23,505 [PID 21246] INFO  Building call graph...
+2023-02-06 15:45:23,592 [PID 21246] PERFORMANCE  Call graph built: 0.087s
+2023-02-06 15:45:23,592 [PID 21246] INFO  Computing dependencies...
+2023-02-06 15:45:23,847 [PID 21246] PERFORMANCE  Computed dependencies: 0.255s
+2023-02-06 15:45:23,847 [PID 21246] INFO  Purging shared memory...
+2023-02-06 15:45:23,858 [PID 21246] PERFORMANCE  Purged shared memory: 0.011s
+2023-02-06 15:45:23,859 [PID 21246] INFO  Analysis fixpoint started for 11939 overrides and 7 functions...
+2023-02-06 15:45:24,554 [PID 21246] PERFORMANCE  Recorded initial models: 0.694s
+2023-02-06 15:45:24,554 [PID 21246] INFO  Iteration #0. 1 callables [views.$toplevel]
+2023-02-06 15:45:24,600 [PID 21246] INFO  Processed 1 of 1 callables
+2023-02-06 15:45:24,600 [PID 21246] INFO  Iteration #0, 1 callables, heap size 0.090GB took 0.05s
+2023-02-06 15:45:24,636 [PID 21246] INFO  Found 1 issues
+2023-02-06 15:45:24,636 [PID 21246] INFO  Fixpoint iterations: 1
+2023-02-06 15:45:24,637 [PID 21246] PERFORMANCE  Analysis fixpoint complete: 0.777s
+2023-02-06 15:45:24,659 [PID 21246] PERFORMANCE  Analyze: 30.897s
+2023-04-09 17:51:57,153 [PID 15152] INFO No binary specified, looking for `pyre.bin` in PATH
+2023-04-09 17:51:57,156 [PID 15152] INFO Could not determine the number of Pyre workers from configuration. Auto-set the value to 3.
+2023-04-09 17:51:57,157 [PID 15152] INFO No typeshed specified, looking for it...
+2023-04-09 17:51:57,157 [PID 15152] INFO Found: `/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed`
+2023-04-09 17:51:57,159 [PID 15152] INFO Writing arguments into /tmp/pyre_arguments_8qqhtnpj.json...
+2023-04-09 17:51:57,159 [PID 15152] DEBUG Arguments:
+{
+  "source_paths": {
+    "kind": "simple",
+    "paths": [
+      "/home/tausifansari/Pysa-Experiment/pysa_tutorial/FalsePositive"
+    ]
+  },
+  "search_paths": [
+    "/home/tausifansari/Pysa-Experiment/pysa_tutorial/FalsePositive/../../stubs",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stdlib",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/DateTimeRange",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/Deprecated",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/Flask-Cors",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/Flask-SQLAlchemy",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/JACK-Client",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/Markdown",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/Pillow",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/PyMySQL",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/PyYAML",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/Pygments",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/SQLAlchemy",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/Send2Trash",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/aiofiles",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/annoy",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/appdirs",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/atomicwrites",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/aws-xray-sdk",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/babel",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/backports.ssl_match_hostname",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/beautifulsoup4",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/bleach",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/boto",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/braintree",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/cachetools",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/caldav",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/certifi",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/chardet",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/chevron",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/click-spinner",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/colorama",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/commonmark",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/contextvars",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/croniter",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/cryptography",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/dateparser",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/decorator",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/dj-database-url",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/docopt",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/docutils",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/editdistance",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/emoji",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/entrypoints",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/first",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/flake8-2020",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/flake8-bugbear",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/flake8-builtins",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/flake8-docstrings",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/flake8-plugin-utils",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/flake8-rst-docstrings",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/flake8-simplify",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/flake8-typing-imports",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/fpdf2",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/freezegun",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/gdb",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/google-cloud-ndb",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/hdbcli",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/html5lib",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/httplib2",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/humanfriendly",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/invoke",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/jmespath",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/jsonschema",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/ldap3",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/mock",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/mypy-extensions",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/mysqlclient",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/oauthlib",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/openpyxl",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/opentracing",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/paramiko",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/parsimonious",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/passlib",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/passpy",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/pep8-naming",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/playsound",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/polib",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/prettytable",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/protobuf",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/psutil",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/psycopg2",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/pyOpenSSL",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/pyRFC3339",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/pyaudio",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/pycurl",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/pyfarmhash",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/pyflakes",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/pynput",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/pysftp",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/pytest-lazy-fixture",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/python-dateutil",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/python-gflags",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/python-jose",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/python-nmap",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/python-slugify",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/pytz",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/pyvmomi",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/redis",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/regex",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/requests",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/retry",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/selenium",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/setuptools",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/simplejson",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/singledispatch",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/six",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/slumber",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/stdlib-list",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/stripe",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/tabulate",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/termcolor",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/toml",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/toposort",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/tqdm",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/ttkthemes",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/typed-ast",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/tzlocal",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/ujson",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/urllib3",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/vobject",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/waitress",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/whatthepatch",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/xmltodict",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/xxhash",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/zxcvbn"
+  ],
+  "excludes": [
+    ".*/integration_test/.*"
+  ],
+  "checked_directory_allowlist": [
+    "/home/tausifansari/Pysa-Experiment/pysa_tutorial/FalsePositive"
+  ],
+  "checked_directory_blocklist": [],
+  "extensions": [],
+  "log_path": "/home/tausifansari/Pysa-Experiment/pysa_tutorial/FalsePositive/.pyre",
+  "global_root": "/home/tausifansari/Pysa-Experiment/pysa_tutorial/FalsePositive",
+  "debug": false,
+  "python_version": {
+    "major": 3,
+    "minor": 10,
+    "micro": 6
+  },
+  "shared_memory": {},
+  "parallel": true,
+  "number_of_workers": 3,
+  "inline_decorators": false,
+  "no_verify": false,
+  "verify_dsl": false,
+  "strict": false,
+  "taint_model_paths": [
+    "/home/tausifansari/Pysa-Experiment/pysa_tutorial/FalsePositive"
+  ],
+  "use_cache": false,
+  "check_invariants": false
+}
+2023-04-09 17:51:57,189 [PID 15152] INFO  Initializing shared memory [heap_size=8589934592, dep_table_pow=27, hash_table_pow=26]
+2023-04-09 17:51:57,191 [PID 15152] INFO  Verifying model syntax and configuration.
+2023-04-09 17:51:57,192 [PID 15152] INFO  Finding taint models in `/home/tausifansari/Pysa-Experiment/pysa_tutorial/FalsePositive`.
+2023-04-09 17:51:57,192 [PID 15152] PERFORMANCE  Verified model syntax and configuration: 0.001s
+2023-04-09 17:51:57,193 [PID 15152] INFO  Creating environment...
+2023-04-09 17:51:57,193 [PID 15152] INFO  Building module tracker...
+2023-04-09 17:51:57,296 [PID 15152] PERFORMANCE  Module tracker built: 0.103s
+2023-04-09 17:51:57,379 [PID 15152] PERFORMANCE  Full environment built: 0.186s
+2023-04-09 17:52:00,595 [PID 15152] INFO  Checking 48177 functions...
+2023-04-09 17:52:01,572 [PID 15152] INFO  Processed 984 of 48177 functions
+2023-04-09 17:52:02,326 [PID 15152] INFO  Processed 1968 of 48177 functions
+2023-04-09 17:52:02,408 [PID 15152] INFO  Processed 2952 of 48177 functions
+2023-04-09 17:52:03,372 [PID 15152] INFO  Processed 3936 of 48177 functions
+2023-04-09 17:52:03,689 [PID 15152] INFO  Processed 4920 of 48177 functions
+2023-04-09 17:52:03,757 [PID 15152] INFO  Processed 5904 of 48177 functions
+2023-04-09 17:52:04,588 [PID 15152] INFO  Processed 6888 of 48177 functions
+2023-04-09 17:52:04,703 [PID 15152] INFO  Processed 7872 of 48177 functions
+2023-04-09 17:52:04,779 [PID 15152] INFO  Processed 8856 of 48177 functions
+2023-04-09 17:52:05,809 [PID 15152] INFO  Processed 9840 of 48177 functions
+2023-04-09 17:52:05,969 [PID 15152] INFO  Processed 10824 of 48177 functions
+2023-04-09 17:52:06,052 [PID 15152] INFO  Processed 11808 of 48177 functions
+2023-04-09 17:52:06,957 [PID 15152] WARNING  Found untracked type `google.protobuf.descriptor_pb2.FieldDescriptorProto._Label.ValueType` when checking for attribute `DESCRIPTOR` of `google.protobuf.internal.enum_type_wrapper._EnumTypeWrapper`.
+2023-04-09 17:52:06,972 [PID 15152] WARNING  Found untracked type `google.protobuf.descriptor_pb2.FieldDescriptorProto._Type.ValueType` when checking for attribute `DESCRIPTOR` of `google.protobuf.internal.enum_type_wrapper._EnumTypeWrapper`.
+2023-04-09 17:52:06,998 [PID 15152] WARNING  Found untracked type `google.protobuf.descriptor_pb2.FieldOptions._CType.ValueType` when checking for attribute `DESCRIPTOR` of `google.protobuf.internal.enum_type_wrapper._EnumTypeWrapper`.
+2023-04-09 17:52:07,003 [PID 15152] WARNING  Found untracked type `google.protobuf.descriptor_pb2.FieldOptions._JSType.ValueType` when checking for attribute `DESCRIPTOR` of `google.protobuf.internal.enum_type_wrapper._EnumTypeWrapper`.
+2023-04-09 17:52:07,014 [PID 15152] INFO  Processed 12792 of 48177 functions
+2023-04-09 17:52:07,058 [PID 15152] WARNING  Found untracked type `google.protobuf.descriptor_pb2.FileOptions._OptimizeMode.ValueType` when checking for attribute `DESCRIPTOR` of `google.protobuf.internal.enum_type_wrapper._EnumTypeWrapper`.
+2023-04-09 17:52:07,104 [PID 15152] WARNING  Found untracked type `google.protobuf.descriptor_pb2.MethodOptions._IdempotencyLevel.ValueType` when checking for attribute `DESCRIPTOR` of `google.protobuf.internal.enum_type_wrapper._EnumTypeWrapper`.
+2023-04-09 17:52:07,323 [PID 15152] INFO  Processed 13776 of 48177 functions
+2023-04-09 17:52:07,422 [PID 15152] INFO  Processed 14760 of 48177 functions
+2023-04-09 17:52:08,065 [PID 15152] INFO  Processed 15744 of 48177 functions
+2023-04-09 17:52:08,394 [PID 15152] INFO  Processed 16728 of 48177 functions
+2023-04-09 17:52:08,569 [PID 15152] INFO  Processed 17712 of 48177 functions
+2023-04-09 17:52:09,007 [PID 15152] INFO  Processed 18696 of 48177 functions
+2023-04-09 17:52:09,672 [PID 15152] INFO  Processed 19680 of 48177 functions
+2023-04-09 17:52:09,694 [PID 15152] INFO  Processed 20664 of 48177 functions
+2023-04-09 17:52:10,090 [PID 15152] INFO  Processed 21648 of 48177 functions
+2023-04-09 17:52:10,530 [PID 15152] WARNING  Found untracked type `google.protobuf.compiler.plugin_pb2.CodeGeneratorResponse._Feature.ValueType` when checking for attribute `DESCRIPTOR` of `google.protobuf.internal.enum_type_wrapper._EnumTypeWrapper`.
+2023-04-09 17:52:10,653 [PID 15152] INFO  Processed 22632 of 48177 functions
+2023-04-09 17:52:10,840 [PID 15152] INFO  Processed 23616 of 48177 functions
+2023-04-09 17:52:11,177 [PID 15152] INFO  Processed 24600 of 48177 functions
+2023-04-09 17:52:11,810 [PID 15152] INFO  Processed 25584 of 48177 functions
+2023-04-09 17:52:11,879 [PID 15152] INFO  Processed 26568 of 48177 functions
+2023-04-09 17:52:12,251 [PID 15152] INFO  Processed 27552 of 48177 functions
+2023-04-09 17:52:12,955 [PID 15152] INFO  Processed 28536 of 48177 functions
+2023-04-09 17:52:13,084 [PID 15152] INFO  Processed 29520 of 48177 functions
+2023-04-09 17:52:13,512 [PID 15152] INFO  Processed 30504 of 48177 functions
+2023-04-09 17:52:13,916 [PID 15152] INFO  Processed 31488 of 48177 functions
+2023-04-09 17:52:14,321 [PID 15152] INFO  Processed 32472 of 48177 functions
+2023-04-09 17:52:15,024 [PID 15152] INFO  Processed 33456 of 48177 functions
+2023-04-09 17:52:15,211 [PID 15152] INFO  Processed 34440 of 48177 functions
+2023-04-09 17:52:15,427 [PID 15152] INFO  Processed 35424 of 48177 functions
+2023-04-09 17:52:16,353 [PID 15152] INFO  Processed 36408 of 48177 functions
+2023-04-09 17:52:16,506 [PID 15152] INFO  Processed 37392 of 48177 functions
+2023-04-09 17:52:16,608 [PID 15152] WARNING  Found untracked type `google.protobuf.type_pb2.Field._Cardinality.ValueType` when checking for attribute `DESCRIPTOR` of `google.protobuf.internal.enum_type_wrapper._EnumTypeWrapper`.
+2023-04-09 17:52:16,616 [PID 15152] WARNING  Found untracked type `google.protobuf.type_pb2.Field._Kind.ValueType` when checking for attribute `DESCRIPTOR` of `google.protobuf.internal.enum_type_wrapper._EnumTypeWrapper`.
+2023-04-09 17:52:16,637 [PID 15152] WARNING  Found untracked type `google.protobuf.type_pb2._Syntax.ValueType` when checking for attribute `DESCRIPTOR` of `google.protobuf.internal.enum_type_wrapper._EnumTypeWrapper`.
+2023-04-09 17:52:16,727 [PID 15152] INFO  Processed 38376 of 48177 functions
+2023-04-09 17:52:17,536 [PID 15152] INFO  Processed 39360 of 48177 functions
+2023-04-09 17:52:17,763 [PID 15152] INFO  Processed 40344 of 48177 functions
+2023-04-09 17:52:17,857 [PID 15152] INFO  Processed 41328 of 48177 functions
+2023-04-09 17:52:18,814 [PID 15152] INFO  Processed 42312 of 48177 functions
+2023-04-09 17:52:18,950 [PID 15152] INFO  Processed 43296 of 48177 functions
+2023-04-09 17:52:19,054 [PID 15152] INFO  Processed 44280 of 48177 functions
+2023-04-09 17:52:19,745 [PID 15152] INFO  Processed 45264 of 48177 functions
+2023-04-09 17:52:19,775 [PID 15152] WARNING  Found untracked type `google.protobuf.struct_pb2._NullValue.ValueType` when checking for attribute `DESCRIPTOR` of `google.protobuf.internal.enum_type_wrapper._EnumTypeWrapper`.
+2023-04-09 17:52:20,089 [PID 15152] INFO  Processed 46248 of 48177 functions
+2023-04-09 17:52:20,234 [PID 15152] INFO  Processed 47232 of 48177 functions
+2023-04-09 17:52:20,626 [PID 15152] INFO  Processed 48177 of 48177 functions
+2023-04-09 17:52:20,626 [PID 15152] PERFORMANCE  Check_TypeCheck: 20.031s
+2023-04-09 17:52:20,626 [PID 15152] MEMORY  Shared memory size post-typecheck (size: 81)
+2023-04-09 17:52:22,090 [PID 15152] PERFORMANCE  Computed class hierarchy graph: 1.464s
+2023-04-09 17:52:22,190 [PID 15152] PERFORMANCE  Computed class intervals: 0.100s
+2023-04-09 17:52:23,884 [PID 15152] PERFORMANCE  Fetched initial callables to analyze: 1.692s
+2023-04-09 17:52:23,948 [PID 15152] INFO  Parsing taint models...
+2023-04-09 17:52:23,949 [PID 15152] INFO  Finding taint models in `/home/tausifansari/Pysa-Experiment/pysa_tutorial/FalsePositive`.
+2023-04-09 17:52:24,432 [PID 15152] ERROR Found 1 model verification error!
+2023-04-09 17:52:43,728 [PID 15265] INFO No binary specified, looking for `pyre.bin` in PATH
+2023-04-09 17:52:43,729 [PID 15265] INFO Could not determine the number of Pyre workers from configuration. Auto-set the value to 3.
+2023-04-09 17:52:43,729 [PID 15265] INFO No typeshed specified, looking for it...
+2023-04-09 17:52:43,729 [PID 15265] INFO Found: `/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed`
+2023-04-09 17:52:43,731 [PID 15265] INFO Writing arguments into /tmp/pyre_arguments_ju68hz2s.json...
+2023-04-09 17:52:43,731 [PID 15265] DEBUG Arguments:
+{
+  "source_paths": {
+    "kind": "simple",
+    "paths": [
+      "/home/tausifansari/Pysa-Experiment/pysa_tutorial/FalsePositive"
+    ]
+  },
+  "search_paths": [
+    "/home/tausifansari/Pysa-Experiment/pysa_tutorial/FalsePositive/../../stubs",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stdlib",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/DateTimeRange",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/Deprecated",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/Flask-Cors",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/Flask-SQLAlchemy",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/JACK-Client",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/Markdown",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/Pillow",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/PyMySQL",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/PyYAML",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/Pygments",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/SQLAlchemy",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/Send2Trash",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/aiofiles",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/annoy",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/appdirs",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/atomicwrites",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/aws-xray-sdk",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/babel",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/backports.ssl_match_hostname",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/beautifulsoup4",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/bleach",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/boto",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/braintree",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/cachetools",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/caldav",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/certifi",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/chardet",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/chevron",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/click-spinner",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/colorama",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/commonmark",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/contextvars",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/croniter",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/cryptography",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/dateparser",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/decorator",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/dj-database-url",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/docopt",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/docutils",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/editdistance",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/emoji",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/entrypoints",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/first",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/flake8-2020",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/flake8-bugbear",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/flake8-builtins",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/flake8-docstrings",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/flake8-plugin-utils",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/flake8-rst-docstrings",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/flake8-simplify",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/flake8-typing-imports",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/fpdf2",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/freezegun",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/gdb",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/google-cloud-ndb",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/hdbcli",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/html5lib",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/httplib2",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/humanfriendly",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/invoke",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/jmespath",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/jsonschema",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/ldap3",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/mock",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/mypy-extensions",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/mysqlclient",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/oauthlib",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/openpyxl",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/opentracing",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/paramiko",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/parsimonious",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/passlib",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/passpy",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/pep8-naming",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/playsound",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/polib",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/prettytable",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/protobuf",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/psutil",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/psycopg2",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/pyOpenSSL",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/pyRFC3339",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/pyaudio",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/pycurl",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/pyfarmhash",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/pyflakes",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/pynput",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/pysftp",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/pytest-lazy-fixture",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/python-dateutil",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/python-gflags",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/python-jose",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/python-nmap",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/python-slugify",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/pytz",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/pyvmomi",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/redis",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/regex",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/requests",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/retry",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/selenium",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/setuptools",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/simplejson",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/singledispatch",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/six",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/slumber",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/stdlib-list",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/stripe",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/tabulate",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/termcolor",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/toml",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/toposort",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/tqdm",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/ttkthemes",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/typed-ast",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/tzlocal",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/ujson",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/urllib3",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/vobject",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/waitress",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/whatthepatch",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/xmltodict",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/xxhash",
+    "/home/tausifansari/pyre-check/documentation/pysa_tutorial/tutorial/lib/pyre_check/typeshed/stubs/zxcvbn"
+  ],
+  "excludes": [
+    ".*/integration_test/.*"
+  ],
+  "checked_directory_allowlist": [
+    "/home/tausifansari/Pysa-Experiment/pysa_tutorial/FalsePositive"
+  ],
+  "checked_directory_blocklist": [],
+  "extensions": [],
+  "log_path": "/home/tausifansari/Pysa-Experiment/pysa_tutorial/FalsePositive/.pyre",
+  "global_root": "/home/tausifansari/Pysa-Experiment/pysa_tutorial/FalsePositive",
+  "debug": false,
+  "python_version": {
+    "major": 3,
+    "minor": 10,
+    "micro": 6
+  },
+  "shared_memory": {},
+  "parallel": true,
+  "number_of_workers": 3,
+  "inline_decorators": false,
+  "no_verify": false,
+  "verify_dsl": false,
+  "strict": false,
+  "taint_model_paths": [
+    "/home/tausifansari/Pysa-Experiment/pysa_tutorial/FalsePositive"
+  ],
+  "use_cache": false,
+  "check_invariants": false
+}
+2023-04-09 17:52:43,771 [PID 15265] INFO  Initializing shared memory [heap_size=8589934592, dep_table_pow=27, hash_table_pow=26]
+2023-04-09 17:52:43,774 [PID 15265] INFO  Verifying model syntax and configuration.
+2023-04-09 17:52:43,774 [PID 15265] INFO  Finding taint models in `/home/tausifansari/Pysa-Experiment/pysa_tutorial/FalsePositive`.
+2023-04-09 17:52:43,774 [PID 15265] PERFORMANCE  Verified model syntax and configuration: 0.001s
+2023-04-09 17:52:43,775 [PID 15265] INFO  Creating environment...
+2023-04-09 17:52:43,775 [PID 15265] INFO  Building module tracker...
+2023-04-09 17:52:43,909 [PID 15265] PERFORMANCE  Module tracker built: 0.134s
+2023-04-09 17:52:44,021 [PID 15265] PERFORMANCE  Full environment built: 0.247s
+2023-04-09 17:52:47,445 [PID 15265] INFO  Checking 48177 functions...
+2023-04-09 17:52:48,411 [PID 15265] INFO  Processed 984 of 48177 functions
+2023-04-09 17:52:49,080 [PID 15265] INFO  Processed 1968 of 48177 functions
+2023-04-09 17:52:49,286 [PID 15265] INFO  Processed 2952 of 48177 functions
+2023-04-09 17:52:50,004 [PID 15265] INFO  Processed 3936 of 48177 functions
+2023-04-09 17:52:50,458 [PID 15265] INFO  Processed 4920 of 48177 functions
+2023-04-09 17:52:50,553 [PID 15265] INFO  Processed 5904 of 48177 functions
+2023-04-09 17:52:51,257 [PID 15265] INFO  Processed 6888 of 48177 functions
+2023-04-09 17:52:51,496 [PID 15265] INFO  Processed 7872 of 48177 functions
+2023-04-09 17:52:51,579 [PID 15265] INFO  Processed 8856 of 48177 functions
+2023-04-09 17:52:52,295 [PID 15265] INFO  Processed 9840 of 48177 functions
+2023-04-09 17:52:52,597 [PID 15265] INFO  Processed 10824 of 48177 functions
+2023-04-09 17:52:52,665 [PID 15265] INFO  Processed 11808 of 48177 functions
+2023-04-09 17:52:53,288 [PID 15265] INFO  Processed 12792 of 48177 functions
+2023-04-09 17:52:53,448 [PID 15265] WARNING  Found untracked type `google.protobuf.descriptor_pb2.FieldDescriptorProto._Label.ValueType` when checking for attribute `DESCRIPTOR` of `google.protobuf.internal.enum_type_wrapper._EnumTypeWrapper`.
+2023-04-09 17:52:53,460 [PID 15265] WARNING  Found untracked type `google.protobuf.descriptor_pb2.FieldDescriptorProto._Type.ValueType` when checking for attribute `DESCRIPTOR` of `google.protobuf.internal.enum_type_wrapper._EnumTypeWrapper`.
+2023-04-09 17:52:53,483 [PID 15265] WARNING  Found untracked type `google.protobuf.descriptor_pb2.FieldOptions._CType.ValueType` when checking for attribute `DESCRIPTOR` of `google.protobuf.internal.enum_type_wrapper._EnumTypeWrapper`.
+2023-04-09 17:52:53,488 [PID 15265] WARNING  Found untracked type `google.protobuf.descriptor_pb2.FieldOptions._JSType.ValueType` when checking for attribute `DESCRIPTOR` of `google.protobuf.internal.enum_type_wrapper._EnumTypeWrapper`.
+2023-04-09 17:52:53,537 [PID 15265] WARNING  Found untracked type `google.protobuf.descriptor_pb2.FileOptions._OptimizeMode.ValueType` when checking for attribute `DESCRIPTOR` of `google.protobuf.internal.enum_type_wrapper._EnumTypeWrapper`.
+2023-04-09 17:52:53,578 [PID 15265] WARNING  Found untracked type `google.protobuf.descriptor_pb2.MethodOptions._IdempotencyLevel.ValueType` when checking for attribute `DESCRIPTOR` of `google.protobuf.internal.enum_type_wrapper._EnumTypeWrapper`.
+2023-04-09 17:52:53,811 [PID 15265] INFO  Processed 13776 of 48177 functions
+2023-04-09 17:52:53,881 [PID 15265] INFO  Processed 14760 of 48177 functions
+2023-04-09 17:52:54,320 [PID 15265] INFO  Processed 15744 of 48177 functions
+2023-04-09 17:52:55,001 [PID 15265] INFO  Processed 16728 of 48177 functions
+2023-04-09 17:52:55,071 [PID 15265] INFO  Processed 17712 of 48177 functions
+2023-04-09 17:52:55,258 [PID 15265] INFO  Processed 18696 of 48177 functions
+2023-04-09 17:52:56,142 [PID 15265] INFO  Processed 19680 of 48177 functions
+2023-04-09 17:52:56,361 [PID 15265] INFO  Processed 20664 of 48177 functions
+2023-04-09 17:52:56,541 [PID 15265] INFO  Processed 21648 of 48177 functions
+2023-04-09 17:52:57,067 [PID 15265] INFO  Processed 22632 of 48177 functions
+2023-04-09 17:52:57,338 [PID 15265] INFO  Processed 23616 of 48177 functions
+2023-04-09 17:52:57,527 [PID 15265] INFO  Processed 24600 of 48177 functions
+2023-04-09 17:52:57,972 [PID 15265] WARNING  Found untracked type `google.protobuf.compiler.plugin_pb2.CodeGeneratorResponse._Feature.ValueType` when checking for attribute `DESCRIPTOR` of `google.protobuf.internal.enum_type_wrapper._EnumTypeWrapper`.
+2023-04-09 17:52:58,065 [PID 15265] INFO  Processed 25584 of 48177 functions
+2023-04-09 17:52:58,446 [PID 15265] INFO  Processed 26568 of 48177 functions
+2023-04-09 17:52:58,595 [PID 15265] INFO  Processed 27552 of 48177 functions
+2023-04-09 17:52:59,290 [PID 15265] INFO  Processed 28536 of 48177 functions
+2023-04-09 17:52:59,605 [PID 15265] INFO  Processed 29520 of 48177 functions
+2023-04-09 17:52:59,692 [PID 15265] INFO  Processed 30504 of 48177 functions
+2023-04-09 17:53:00,307 [PID 15265] INFO  Processed 31488 of 48177 functions
+2023-04-09 17:53:01,175 [PID 15265] INFO  Processed 32472 of 48177 functions
+2023-04-09 17:53:01,438 [PID 15265] INFO  Processed 33456 of 48177 functions
+2023-04-09 17:53:01,523 [PID 15265] INFO  Processed 34440 of 48177 functions
+2023-04-09 17:53:02,449 [PID 15265] INFO  Processed 35424 of 48177 functions
+2023-04-09 17:53:02,727 [PID 15265] INFO  Processed 36408 of 48177 functions
+2023-04-09 17:53:02,941 [PID 15265] WARNING  Found untracked type `google.protobuf.type_pb2.Field._Cardinality.ValueType` when checking for attribute `DESCRIPTOR` of `google.protobuf.internal.enum_type_wrapper._EnumTypeWrapper`.
+2023-04-09 17:53:02,950 [PID 15265] WARNING  Found untracked type `google.protobuf.type_pb2.Field._Kind.ValueType` when checking for attribute `DESCRIPTOR` of `google.protobuf.internal.enum_type_wrapper._EnumTypeWrapper`.
+2023-04-09 17:53:02,973 [PID 15265] WARNING  Found untracked type `google.protobuf.type_pb2._Syntax.ValueType` when checking for attribute `DESCRIPTOR` of `google.protobuf.internal.enum_type_wrapper._EnumTypeWrapper`.
+2023-04-09 17:53:02,988 [PID 15265] INFO  Processed 37392 of 48177 functions
+2023-04-09 17:53:03,702 [PID 15265] INFO  Processed 38376 of 48177 functions
+2023-04-09 17:53:03,857 [PID 15265] INFO  Processed 39360 of 48177 functions
+2023-04-09 17:53:04,222 [PID 15265] INFO  Processed 40344 of 48177 functions
+2023-04-09 17:53:05,007 [PID 15265] INFO  Processed 41328 of 48177 functions
+2023-04-09 17:53:05,099 [PID 15265] INFO  Processed 42312 of 48177 functions
+2023-04-09 17:53:05,314 [PID 15265] INFO  Processed 43296 of 48177 functions
+2023-04-09 17:53:06,140 [PID 15265] WARNING  Found untracked type `google.protobuf.struct_pb2._NullValue.ValueType` when checking for attribute `DESCRIPTOR` of `google.protobuf.internal.enum_type_wrapper._EnumTypeWrapper`.
+2023-04-09 17:53:06,242 [PID 15265] INFO  Processed 44280 of 48177 functions
+2023-04-09 17:53:06,332 [PID 15265] INFO  Processed 45264 of 48177 functions
+2023-04-09 17:53:06,518 [PID 15265] INFO  Processed 46248 of 48177 functions
+2023-04-09 17:53:07,455 [PID 15265] INFO  Processed 47232 of 48177 functions
+2023-04-09 17:53:07,478 [PID 15265] INFO  Processed 48177 of 48177 functions
+2023-04-09 17:53:07,478 [PID 15265] PERFORMANCE  Check_TypeCheck: 20.033s
+2023-04-09 17:53:07,478 [PID 15265] MEMORY  Shared memory size post-typecheck (size: 81)
+2023-04-09 17:53:09,055 [PID 15265] PERFORMANCE  Computed class hierarchy graph: 1.576s
+2023-04-09 17:53:09,164 [PID 15265] PERFORMANCE  Computed class intervals: 0.110s
+2023-04-09 17:53:10,859 [PID 15265] PERFORMANCE  Fetched initial callables to analyze: 1.694s
+2023-04-09 17:53:10,934 [PID 15265] INFO  Parsing taint models...
+2023-04-09 17:53:10,934 [PID 15265] INFO  Finding taint models in `/home/tausifansari/Pysa-Experiment/pysa_tutorial/FalsePositive`.
+2023-04-09 17:53:10,994 [PID 15265] INFO  Computing inferred models...
+2023-04-09 17:53:11,646 [PID 15265] PERFORMANCE  Computed inferred models: 0.652s
+2023-04-09 17:53:11,646 [PID 15265] PERFORMANCE  Parsed taint models: 0.712s
+2023-04-09 17:53:11,646 [PID 15265] INFO  Computing overrides...
+2023-04-09 17:53:13,229 [PID 15265] WARNING  `google.protobuf.message.Message::ClearField` has 57 overrides, this might slow down the analysis considerably.
+2023-04-09 17:53:13,230 [PID 15265] WARNING  `google.protobuf.message.Message::__init__` has 58 overrides, this might slow down the analysis considerably.
+2023-04-09 17:53:13,230 [PID 15265] WARNING  `object::__eq__` has 185 overrides, this might slow down the analysis considerably.
+2023-04-09 17:53:13,230 [PID 15265] WARNING  `object::__hash__` has 75 overrides, this might slow down the analysis considerably.
+2023-04-09 17:53:13,230 [PID 15265] WARNING  `object::__init__` has 1328 overrides, this might slow down the analysis considerably.
+2023-04-09 17:53:13,230 [PID 15265] WARNING  `object::__ne__` has 88 overrides, this might slow down the analysis considerably.
+2023-04-09 17:53:13,231 [PID 15265] WARNING  `type::__call__` has 190 overrides, this might slow down the analysis considerably.
+2023-04-09 17:53:13,231 [PID 15265] WARNING  `type::__init__` has 1224 overrides, this might slow down the analysis considerably.
+2023-04-09 17:53:13,231 [PID 15265] WARNING  `type::__new__` has 165 overrides, this might slow down the analysis considerably.
+2023-04-09 17:53:13,231 [PID 15265] WARNING  `typing.Collection::__len__` has 51 overrides, this might slow down the analysis considerably.
+2023-04-09 17:53:13,231 [PID 15265] WARNING  `typing.GenericMeta::__getitem__` has 63 overrides, this might slow down the analysis considerably.
+2023-04-09 17:53:13,231 [PID 15265] WARNING  `typing.Iterable::__iter__` has 51 overrides, this might slow down the analysis considerably.
+2023-04-09 17:53:13,232 [PID 15265] WARNING  `typing.NamedTuple::__init__` has 112 overrides, this might slow down the analysis considerably.
+2023-04-09 17:53:13,252 [PID 15265] PERFORMANCE  Overrides computed: 1.606s
+2023-04-09 17:53:13,252 [PID 15265] INFO  Building call graph...
+2023-04-09 17:53:13,335 [PID 15265] PERFORMANCE  Call graph built: 0.083s
+2023-04-09 17:53:13,335 [PID 15265] INFO  Computing dependencies...
+2023-04-09 17:53:13,593 [PID 15265] PERFORMANCE  Computed dependencies: 0.257s
+2023-04-09 17:53:13,593 [PID 15265] INFO  Purging shared memory...
+2023-04-09 17:53:13,601 [PID 15265] PERFORMANCE  Purged shared memory: 0.009s
+2023-04-09 17:53:13,602 [PID 15265] INFO  Analysis fixpoint started for 11939 overrides and 25 functions...
+2023-04-09 17:53:14,365 [PID 15265] PERFORMANCE  Recorded initial models: 0.763s
+2023-04-09 17:53:14,367 [PID 15265] INFO  Iteration #0. 9 callables [...]
+2023-04-09 17:53:14,410 [PID 15265] INFO  Processed 4 of 9 callables
+2023-04-09 17:53:14,420 [PID 15265] INFO  Processed 5 of 9 callables
+2023-04-09 17:53:14,421 [PID 15265] INFO  Processed 9 of 9 callables
+2023-04-09 17:53:14,421 [PID 15265] INFO  Iteration #0, 9 callables, heap size 0.090GB took 0.06s
+2023-04-09 17:53:14,421 [PID 15265] INFO  Iteration #1. 9 callables [...]
+2023-04-09 17:53:14,469 [PID 15265] INFO  Processed 4 of 9 callables
+2023-04-09 17:53:14,473 [PID 15265] INFO  Processed 8 of 9 callables
+2023-04-09 17:53:14,475 [PID 15265] INFO  Processed 9 of 9 callables
+2023-04-09 17:53:14,475 [PID 15265] INFO  Iteration #1, 9 callables, heap size 0.090GB took 0.05s
+2023-04-09 17:53:14,513 [PID 15265] INFO  Found 1 issues
+2023-04-09 17:53:14,513 [PID 15265] INFO  Fixpoint iterations: 2
+2023-04-09 17:53:14,513 [PID 15265] PERFORMANCE  Analysis fixpoint complete: 0.911s
+2023-04-09 17:53:14,534 [PID 15265] PERFORMANCE  Analyze: 30.761s
