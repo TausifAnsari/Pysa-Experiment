@@ -4,20 +4,29 @@ In this task you are provided with the Pysa sample code and its configuration fi
 
 ## Files for this task
 
-1. Views.py
+### Views.py
 
 <p align="center">
   <img src="images/a1.png" width="620px">
 </p>
 
-2. taint.config
-![](images/a2.png)
+### taint.config
 
-3. sources_sinks.pysa
-![](images/a3.png)
+<p align="center">
+  <img src="images/a2.png" width="620px">
+</p>
 
-4. .pyre_configuration
-![](images/a4.png)
+### sources_sinks.pysa
+
+<p align="center">
+  <img src="images/a3.png" width="620px">
+</p>
+
+### .pyre_configuration
+
+<p align="center">
+  <img src="images/a4.png" width="620px">
+</p>
 
 1. Clone this repository and navigate to the tasks folder:
 
