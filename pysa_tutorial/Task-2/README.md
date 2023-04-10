@@ -4,6 +4,8 @@ In this task you are provided with the Pysa sample code and its configuration fi
 
 There are three subtasks provided in this task. Follow the instructions of each of the subtask and answer the questions on the google form after each subtask.
 
+### Refer to the [this](https://github.com/TausifAnsari/Pysa-Experiment/blob/main/pysa_tutorial/Task-2/Document/PysaExperiment-Task2.pdf) step-by-step guide if you are not able to run Pysa or Dynamic debugger.
+
 ## Files for this task
 
 ### `views.py`
