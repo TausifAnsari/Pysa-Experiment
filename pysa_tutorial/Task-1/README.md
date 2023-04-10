@@ -82,7 +82,7 @@ Now you can use the PySa and run the static analyzer, and with the help of the g
 
 Now you can use the PySa along with the Visual studio code debugger, and with the help of the PySa generated output and tracking dataflow using dynamic debugger try to answer the questions
 
-1. Download and Install Visual studio Code from the below link
+1. Download and Install Visual studio Code from the below link, If you have not installed it already.
 
    ```
    https://code.visualstudio.com/download
