@@ -5,7 +5,10 @@ In this task you are provided with the Pysa sample code and its configuration fi
 ## Files for this task
 
 1. Views.py
-![](images/a1.png)
+
+<p align="center">
+  <img src="images/a1.png" width="620px">
+</p>
 
 2. taint.config
 ![](images/a2.png)
