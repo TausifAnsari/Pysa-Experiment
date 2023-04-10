@@ -2,7 +2,15 @@
 
 In this task you are provided with the Pysa sample code and its configuration files. Your task is to follow the tutorial below and answer the questions on the google form provided to you.
 
-## Finding Vulnerabilities manually without using any tool
+## Files for this task
+
+1. Views.py
+
+2. taint.config
+
+3. sources_sinks.pysa
+
+4. .pyre_configuration
 
 1. Clone this repository and navigate to the tasks folder:
 
