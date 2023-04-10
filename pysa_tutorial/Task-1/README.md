@@ -5,12 +5,16 @@ In this task you are provided with the Pysa sample code and its configuration fi
 ## Files for this task
 
 1. Views.py
+![](images/a1.png)
 
 2. taint.config
+![](images/a2.png)
 
 3. sources_sinks.pysa
+![](images/a3.png)
 
 4. .pyre_configuration
+![](images/a4.png)
 
 1. Clone this repository and navigate to the tasks folder:
 
