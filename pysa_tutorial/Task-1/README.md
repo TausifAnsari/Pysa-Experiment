@@ -5,26 +5,32 @@ In this task you are provided with the Pysa sample code and its configuration fi
 ## Files for this task
 
 ### Views.py
-
-<p align="center">
+<br>
+<p align="left">
   <img src="images/a1.png" width="620px">
 </p>
 
-### taint.config
+<br>
 
-<p align="center">
+### taint.config
+<br>
+<p align="left">
   <img src="images/a2.png" width="620px">
 </p>
 
-### sources_sinks.pysa
+<br>
 
-<p align="center">
+### sources_sinks.pysa
+<br>
+<p align="left">
   <img src="images/a3.png" width="620px">
 </p>
 
-### .pyre_configuration
+<br>
 
-<p align="center">
+### .pyre_configuration
+<br>
+<p align="left">
   <img src="images/a4.png" width="620px">
 </p>
 
